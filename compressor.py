@@ -24,8 +24,8 @@ def compress_video(input_file, output_file, target_size_mb):
     print(f"Video compressed successfully! Saved to {output_file}")
 
 # Input video file
-input_file = "IMG_1730.MOV"  # Replace with your file path
-output_file = "compressed_video1.MOV"  # Output file name
+input_file = "input_video.MOV"  # Replace with your file path
+output_file = "compressed_video.MOV"  # Output file name
 
 # Compress to 50 MB
-compress_video(input_file, output_file, 45)
+compress_video(input_file, output_file, 50)
